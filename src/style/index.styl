@@ -1,0 +1,226 @@
+body{
+  margin:0;
+  color: #3d4852;
+  font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+  // font-family: "PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+.ivu-loading-bar-inner
+  height 3px !important
+a
+  text-decoration: none
+li
+  list-style: none
+.text-center
+  text-align: center
+
+
+.animate03{
+	-webkit-transition-duration:0.3s;
+	-moz-transition-duration:0.3s;
+	-ms-transition-duration:0.3s;
+	transition-duration:0.3s;
+  transition: transform .3s
+}
+.animate05{
+	-webkit-transition-duration:0.5s;
+	-moz-transition-duration:0.5s;
+	-ms-transition-duration:0.5s;
+	transition-duration:0.5s;
+}
+.el-textarea__inner
+  font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+.flex
+  display: flex
+
+main
+  box-sizing: border-box;
+  flex:1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #fff
+  header
+    height: 48px;
+    line-height: 48px;
+    background: #F7F7F7;
+    text-indent: 30px;
+  .wrap
+    position: relative;
+    flex: 1;
+    background: #fff;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    .head{
+      height: 60px;
+      span{
+        padding-right: 5px;
+      }
+    }
+
+  footer 
+    height: 55px;
+    box-sizing: border-box;
+    border-top: 1px solid #f2f2f2;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #F7f7f7;
+    .el-button
+      margin: 0 30px;
+
+
+// banner样式
+.banner
+  position relative
+  height 450px
+  width 100%
+  img
+    width 100%
+    position absolute
+    top 0
+    object-fit cover
+    height 100%
+  .bg
+    background #848484
+    mix-blend-mode multiply
+    height 100%
+    position absolute
+    top 0
+    width 100%
+  .text-box
+    position absolute
+    height 100%
+    width 100%
+    padding 20px
+    font-size 18px
+    top 0
+    color #fff
+    display flex
+    flex-direction column
+    align-items center
+    text-align center
+    justify-content center
+
+
+.main
+  flex 1
+  max-width 940px
+  margin 60px auto
+  padding: 0 20px
+.el-tag
+  margin-right: 8px
+
+// 弹框表格
+.burbox .el-dialog__body {
+  padding: 0;
+}
+.tableDialog{
+  display: flex;
+  height: 550px;
+  .tabs{
+    width: 170px;
+    border-right: 2px solid #f3f8fe;
+    .nav-title{
+      margin-top: 40px;
+      background: #f7f7f7;
+      line-height: 40px;
+      text-indent: 15px;
+      font-size: 17px;
+      font-weight: bold;
+      color: #000;
+    }
+    p{
+      margin-top: 40px;
+      background: #f7f7f7;
+      line-height: 36px;
+      text-indent: 20px;
+      color:#20a1ff;
+    }
+    .el-menu {
+      border-right: 0;
+      .title{
+        font-size: 15px;
+        font-weight: bold;
+      }
+      .el-menu-item, .el-submenu__title {
+        height: 45px;
+        line-height: 45px;
+      }
+    }
+  }
+  .burli1{
+    width: 400px;
+    border-right: 2px solid #f3f8fe;
+    padding: 40px 20px 0 20px;
+  }
+  .burli2{
+    width: 400px;
+    margin-bottom: 20px;
+    padding: 40px 20px 0 20px;
+  }
+  .burli3{
+    width: 500px;
+    margin-bottom: 20px;
+    padding: 40px 20px 0 20px;
+  }
+}
+
+
+i,em{
+  font-style: normal;
+}
+.pink
+  color #f7576c
+/*颜色*/
+.red{
+	color: red;
+}
+.blue{
+  color: #3DB4FF;
+}
+.success{
+	color: #00aa20;
+}
+.orange{
+	color: #fdad00;
+}
+.zise{
+	color: #6a66ff;
+}
+.bold{
+  font-weight: bold;
+}
+.right{
+  float: right;
+}
+.clear{
+  clear:both;
+}
+/*****全局滚动条样式 ******/
+/*滚动条整体部分，其中的属性有width,height,background,border等（就和一个块级元素一样）（位置1）*/
+.scroll{
+  overflow-y: auto;
+}
+.scroll::-webkit-scrollbar{
+  width:7px;
+  height:7px;
+}
+/*滚动条里面可以拖动的那部分（位置5） 主要部分*/
+.scroll::-webkit-scrollbar-thumb{
+  // background:-webkit-gradient(linear, 0 0, 0 bottom, from(#85d5fe), to(#207bee));
+  border-radius:10px;
+  background: #c5ced7;
+}
+
+.el-dialog__footer {
+    border-top: 1px solid #f7f7f7;
+}
+
+
+
+
+
+// 输入框颜色
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill
+  -webkit-box-shadow 0 0 0 1000px white inset
+
