@@ -1,10 +1,8 @@
-# vue-blog v2重构
+# blog-index
 **base on vue-cli3**  
-博客页面：[http://www.golang365.com](http://www.golang365.com)  
-后台页面：[http://www.golang365.com/manage.html#/login](http://www.golang365.com/manage.html#/login)
-
-1.多页面配置，博客页面和后台页面分离  
-2.图片上传又拍云  
+源博客页面：[博客模板](https://github.com/sweida/vue-blog-index)  
+1.因为他的后台是PHP，我不会PHP，所以改成java 后台了 ，我特别喜欢这种简介的样式，好看   
+2.后台：[后台管理](https://github.com/soulCoke/blog-admin)  
 3.博客页面用iview UI  
 4.后台页面用element UI  
 
